@@ -293,6 +293,30 @@ For production deployment:
 3. Commit changes (`git commit -m 'Add AmazingFeature'`)
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
+6. 
+## 🌱 Branch Strategy
+
+This repository uses multiple branches for organized development:
+
+### Feature Branches:
+- **feature/alerting-sms-whatsapp** - SMS/WhatsApp notification system
+- **feature/hardware-v2** - Next-gen hardware with ESP32 and advanced sensors
+- **feature/analytics-export** - Data export to CSV, Excel, PDF with BI integration
+- **feature/authentication** - User authentication and role-based access control
+
+### Bugfix Branches:
+- **bugfix/dashboard-ui** - Dashboard UI improvements and fixes
+
+### Documentation Branches:
+- **docs/improved-readme** - Enhanced documentation and guides
+
+### Testing Branches:
+- **testing/hardware-sim** - Hardware simulation and automated testing
+
+### Deployment Branches:
+- **deployment/dockerize** - Docker containerization and CI/CD pipeline
+
+Each branch contains a `TODO.md` file outlining planned features and implementation steps.
 
 ## 📄 License
 
